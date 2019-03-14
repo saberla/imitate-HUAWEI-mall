@@ -1,0 +1,99 @@
+/* 更多精彩 */
+.dropBtn{
+    background-color: #faf9f9;
+    color: #a4a4a4;
+    border: none;
+    cursor: pointer;
+}
+.dropDown{
+    margin: 0;
+    position: relative;
+    display: inline-block;
+}
+.dropContent{
+    position: absolute;
+    display: none;
+    background: #fff;
+    box-shadow: 0 2px 36px 0 rgba(0,0,0,0.07);
+    border-radius: 8px 0 8px 8px;
+}
+.dropDown:hover .dropBtn{
+    background-color: white;
+}
+.dropContent a{
+    padding: 8px 10px;
+    color: #a4a4a4;
+    text-decoration: none;
+    display: block;
+}
+.dropContent a:hover{
+    color: red;
+}
+.dropDown:hover .dropContent{
+    display: block;
+}
+
+
+
+/* 网站导航 */
+.dropBtnWeb{
+    background-color: #faf9f9;
+    color: #a4a4a4;
+    border: none;
+    cursor: pointer;
+}
+.dropDownWeb{
+    margin: 0;
+    position: relative;
+    display: inline-block;
+}
+.dropContentWeb{
+    position: absolute;
+    display: none;
+    min-width: 160px;
+    background: #fff;
+    box-shadow: 0 2px 36px 0 rgba(0,0,0,0.07);
+    border-radius: 8px 0 8px 8px;
+    right:0;
+}
+.dropDownWeb:hover .dropBtnWeb{
+    background-color: white;
+}
+.dropContentWeb a{
+    /* padding: 8px 10px; */
+    color: #a4a4a4;
+    text-decoration: none;
+    display: block;
+}
+.dropContentWeb a:hover{
+    color: red;
+}
+.dropDownWeb:hover .dropContentWeb{
+    display: block;
+}
+.dropContentWeb .webnav{
+    width: 890px;
+    line-height: 20px;
+    
+}
+.dropContentWeb .webnav ul{
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    list-style: none;
+    float: left;
+    padding: 0;
+    width: 160px;
+    margin: 22px 8px 20px 8px;
+}
+.dropContentWeb .webnav ul .item{
+    float: left;
+    width: 80px;
+    font-weight: lighter;
+    margin-bottom: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+
+/* 手机版 */

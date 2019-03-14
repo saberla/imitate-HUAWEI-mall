@@ -1,0 +1,76 @@
+.rotation{
+    width: 1366;
+    height: 550px;
+    position: relative;
+}
+.list{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;      
+}
+.item  .imgindex{
+    width: 100%;
+    height: 100%;
+    /* display: inline-block; */
+    margin: 0;
+    position: absolute;
+    opacity: 0;
+    transition: all 1s;
+}
+.btn{
+    outline: none;
+    width: 56px;
+    font-size: 28px;
+    height: 56px;
+    color: white;
+    border: none;
+    border-radius: 28px;
+    background-color: #86838356;
+    position: absolute;
+    top: 211px;
+    z-index: 99;
+}
+.btn:hover{
+    background-color: #868383be;
+}
+#goPre{
+    left: 286px;
+}
+#goNext{
+    right: 100px;
+}
+.imgindex.active{      
+    position: absolute;
+    z-index: 12;
+    opacity: 1;
+}
+
+
+/* 按钮 */
+.pointlist{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    bottom: 91px;
+    right: 35px;
+    z-index: 1000;
+}
+.point{
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    cursor: pointer;
+    float: left;
+    margin-left:8px; 
+}
+.point:hover{
+    background-color: #fff;
+}
+.point.active{
+    background-color: #fff;
+}

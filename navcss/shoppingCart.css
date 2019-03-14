@@ -1,0 +1,64 @@
+.dropBtncart{
+    background-color: #f2f2f2;
+    color: #a4a4a4;
+    border: none;
+    cursor: pointer;
+}
+.dropDowncart{
+    margin: 0;
+    position: relative;
+    display: inline-block;
+}
+.dropContentcart{
+    width: 460px;
+    height: 230px;
+    position: absolute;
+    display: none;
+    background: #fff;
+    box-shadow: 0 2px 36px 0 rgba(0,0,0,0.07);
+    border-radius: 8px 0 8px 8px;
+    right: 0;
+}
+.dropDowncart:hover .dropBtncart{
+    background-color: white;
+}
+.dropContentcart a{
+    padding: 8px 10px;
+    color: #a4a4a4;
+    text-decoration: none;
+    display: block;
+}
+.dropContentcart a:hover{
+    color: red;
+}
+.dropDowncart:hover .dropContentcart{
+    display: block;
+}
+.dropContentcart .carthome{
+    position: absolute;
+    left: 180px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: #f4f4f4;
+    border-radius: 50px;
+}
+.dropContentcart .myicon{
+    font-size: 66px;
+    font-weight: lighter;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+.dropContentcart .cartword{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 124px;
+    top: 145px;
+}
+.dropContentcart .cartword p{
+    color:#a4a4a4;
+    text-decoration: none;
+    font-size: 14px;
+}

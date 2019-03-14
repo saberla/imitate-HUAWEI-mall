@@ -1,0 +1,127 @@
+.leftNav{
+    width: 200px;
+    height: 440px;
+    background-color: rgba(255,255,255,0.95);
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    position: relative;
+    top: -531px;
+    left: 74px;
+    z-index: 100;
+}
+.leftNav ul{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.leftContainer{
+    width: 200px;
+    height: 74px;
+    margin: 0;
+    padding: 0;
+}
+.leftContent{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 12px 25px;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+.leftWord a{
+    font-size: 16px;
+    color: #848484;
+    text-decoration: none;
+}
+.leftWord a:hover{
+    color: red;
+}
+.leftWords{
+    margin-top: 3px;
+}
+.leftWords a{
+    color: #a6a6a6;
+    font-size: 14px;
+    padding-left: 7px;
+}
+.leftWords a:first-child{
+    padding-left: 0;
+}
+
+
+/* 侧边栏下拉菜单 */
+.leftDropdown{
+    margin: 0;
+    position: relative;
+    display: inline-block;
+}
+.leftDropdownContent ul{
+    list-style: none;;
+}
+.leftDropdownContent{
+    width: 662px;
+    height: 440px;
+    position: absolute;
+    display: none;
+    top: 129px;
+    left: 274px;
+    background: #fff;
+    box-shadow: 0 2px 36px 0 rgba(0,0,0,0.07);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 10000000;
+}
+.firstImg{
+    width: 200px;
+    height: 80px;;
+    float: left;
+    margin-left: 30px;
+    margin-top:30px;
+}
+.secondImg{
+    width: 200px;
+    height: 80px;;
+    float: left;
+    margin-left: 30px;
+    margin-top:30px;
+}
+.leftDropdownContent img{
+    width: 56px;
+    height: 56px;
+    /* display: inline-block;
+    margin-left: 50px;
+    padding-left: 51px;
+    margin-top: 44px; */
+}
+/* .leftDropdownContent img:first-child{
+    padding: 0;
+} */
+.leftDropdownContent a{
+    text-decoration: none;
+    display: block;
+}
+.leftDropdownContent span{
+    color: #777;
+    font-size: 13px;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+/* .leftDropdown:hover .leftContainer{
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+}
+.leftDropdown:last-child:hover .leftContainer{
+    border-bottom-left-radius: 10px;
+    background-color: #ffffff;
+} */
+.leftDropdown:hover .leftContainer{
+    border-top-right-radius:0;
+    background-color: #ffffff;
+    border-bottom-right-radius: 0;
+}
+
