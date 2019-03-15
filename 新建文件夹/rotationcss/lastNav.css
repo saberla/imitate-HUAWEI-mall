@@ -244,9 +244,9 @@
     overflow: hidden;
     list-style: none;
     /* display: block; */
-    position: relative;
-    bottom: 62px;
-    left: 1046px;
+    position: absolute;
+    bottom: 36px;
+    left: 1041px;
     z-index: 10000;
     margin-top: 0px;
 }

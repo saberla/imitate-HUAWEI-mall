@@ -1,0 +1,116 @@
+.header{
+    min-width: 1200px;
+    height: 41px;
+    padding: 18px 0 15px 0;
+    background: #fff;
+    position: relative;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    line-height: 1.5;
+    box-shadow: 0 0 46px rgba(0,0,0,0.03);
+    z-index: 39;
+}
+.header .layout{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header .layout .left{
+    float: left;
+}
+.header .layout .left .headImg{
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+}
+.header .layout .left img{
+    height: 36px;
+    display:block;
+    padding-left: 77px; 
+}
+.tooltip{
+    position: relative;
+    display: inline-block;
+}
+.tipText{
+    height: 10px;
+    font-size: 10px;
+    opacity: 0;
+    background-color: honeydew;
+    color:black;
+    border: 1px solid black;
+    padding: 5px 0;
+    position: absolute;
+    top: 43px;
+    left: 172px;
+}
+.tooltip:hover .tipText{
+    opacity: 1;
+    transition: all 1s;
+}
+
+.header .layout .left .wordimg{
+    margin-left: 8px;
+}
+.header .layout .left .wordimg img{
+    display: block;
+    height: 24px;
+    float: left;
+    padding-top: 8px;
+    padding-left: 25px;   
+}
+.header .layout .left .headWord{
+    float: left;
+}
+.header .layout .left .headWord .headerWord a{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 8px;
+    top: 8px;
+    font-size: 16px;
+    color: #333;
+    padding-left: 19px;
+}
+.header .layout .left .headWord .headerWord a:hover{
+    color: red;
+}
+.header .layout .right .form{
+    width: 320px;
+    height: 30px;
+    background: #f0f0f0;
+    border-radius: 15px;
+    position: relative;
+    margin-right: 92px;
+    margin-top: 5px;
+}
+.header .layout .right .form .input{
+    border: none;
+    outline: none;
+    display: block;
+    padding-left: 10px;
+    width: 285px;
+    height: 30px;
+    line-height: 30px;
+    background: transparent;
+    float: left;
+}
+.header .layout .right .form .submit{
+    width: 35px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    background: transparent;
+}
+.header .layout .right .form i{
+    color: #353535;
+    font-size: 16px;
+    font-weight: bolder;
+    position: relative;
+    top: 3px;
+    right: 3px;
+}
+.header .layout .right .form i:hover{
+    color: #a4a4a4;
+}

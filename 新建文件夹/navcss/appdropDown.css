@@ -1,0 +1,78 @@
+.dropBtnphone{
+    background-color: #faf9f9;
+    color: #a4a4a4;
+    border: none;
+    cursor: pointer;
+}
+.dropDownphone{
+    margin: 0;
+    position: relative;
+    display: inline-block;
+}
+.dropContentphone{
+    position: absolute;
+    display: none;
+    background: #fff;
+    padding-bottom: 20px;
+    box-shadow: 0 2px 36px 0 rgba(0,0,0,0.07);
+    border-radius: 8px 0 8px 8px;
+    right: 0;
+}
+.dropDownphone:hover .dropBtnphone{
+    background-color: white;
+}
+
+.dropDownphone:hover .dropContentphone{
+    display: block;
+}
+
+
+.dropContentphone .huaweiapp{
+    padding: 20px 0 20px 0;
+    width: 244px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-left: 24px;
+    overflow: hidden;
+    /* display: inline-block; */
+}
+/* .huaweiapp::after {
+    content: '';
+    display: block;
+    clear: both;
+ } */
+.dropContentphone .huaweiapp .appcontent a{
+    float: left;
+}
+.dropContentphone .huaweiapp .appcontent .appimg{
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin-right: 12px;
+    
+}
+.dropContentphone .huaweiapp .appcontent .huaweiappword{
+    float: left;
+    line-height: 18px;
+}
+.dropContentphone .huaweiapp .appcontent .huaweiappword h2{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-top: 0;
+}
+.dropContentphone .huaweiapp .appcontent .huaweiappword p{
+    color: #cb242b;
+    font-size: 12px;
+    margin-top:2px;
+    line-height: 16px;
+}
+.dropContentphone .huaweiapp .appcontent .huaweiappword .special{
+    color: #848384;
+}
+.dropContentphone .huaweiapp .huaweiappword i:after{
+    content: "";
+    border: none;
+}
+.dropContentphone .huaweiapp:last-child{
+    border: none;
+}
